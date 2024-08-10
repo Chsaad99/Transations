@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+}
+
+#div1 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition: width 2s;
+}
+
+#div1:hover {
+    width: 400px;
+}
+
+#image {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s;
+}
+
+#image:hover {
+    width: 400px;
+    height: 400px;
+}
+
+#div2 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+#div2:hover {
+    width: 400px;
+}
+
+#saad {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-in;
+}
+
+#saad:hover {
+    width: 400px;
+}
+#saad1 {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-out;
+}
+
+#saad1:hover {
+    width: 400px;
+}
+#saad2 {
+    background-color:blue;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#saad2:hover {
+    width: 400px;
+}
+
+
+#div3 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#div3:hover {
+    transform: rotate(360deg);
+}
